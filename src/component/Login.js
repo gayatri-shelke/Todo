@@ -26,7 +26,6 @@ function LoginPage() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Authenticate user and store credentials in local storage
     localStorage.setItem('user', JSON.stringify({ email }));
     window.location.href = '/Card';
   }

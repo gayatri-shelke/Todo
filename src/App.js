@@ -16,6 +16,7 @@ const App = () => {
   
 
   return (
+    <div>
     <Router>
 
     <Header/>
@@ -28,21 +29,10 @@ const App = () => {
 
       </Routes>
     </Router>
+    </div>
   );
 };
 
 export default App;
 
 
-
-// import React from 'react'
-// import Hello from './component/todocard/Hello'
-
-// export default function 
-// () {
-//   return (
-//     <div>
-//     <Hello/>
-//     </div>
-//   )
-// }

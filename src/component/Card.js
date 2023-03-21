@@ -8,7 +8,6 @@ import HobbyCard from './HobbyCard';
 import HomeCard from './HomeCard'
 import TravelCard from './TravelCard'
 import ClothesCard from './ClothesCard'
-// import Toolbar from '@mui/material/Toolbar';
 
 const ThreeCards = () => {
 
